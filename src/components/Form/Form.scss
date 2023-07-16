@@ -12,6 +12,9 @@
   }
 
   .form-input {
+    display: flex;
+    flex-wrap: nowrap;
+
     button,
     select,
     input {

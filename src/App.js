@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { setToLocal, getFromLocal } from "./lib/localStorage.js";
 import { Header, Form, List, Footer } from "./components";
 
 import "./App.scss";
 
 export default function App() {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState(getFromLocal("items") ?? []);
 
   function handleAddItems(item) {
     setItems((items) => [...items, item]);
@@ -29,6 +30,8 @@ export default function App() {
 
     if (confirmed) setItems([]);
   }
+
+  useEffect(() => setToLocal("items", items), [items]);
 
   return (
     <div className="app">

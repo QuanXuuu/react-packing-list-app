@@ -1,5 +1,3 @@
-import "https://quanxuuu.github.io/github-pages-local-storage/index.js";
-
 import { useState, useEffect } from "react";
 import { setToLocal, getFromLocal } from "./lib/localStorage.js";
 import { Header, Form, List, Footer } from "./components";

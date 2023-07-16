@@ -1,4 +1,4 @@
-# 🏝ON THE WAY 🏝
+# 🏝 ON THE WAY 🏝
 
 ## Your personal packling list
 

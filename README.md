@@ -1,29 +1,13 @@
-# ON THE WAY 🏝
+# 🏝ON THE WAY 🏝
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Your personal packling list
 
-## Available Scripts
+Please feel free to explore[@ONTHEWAY](https://quanxuuu.github.io/spa-final-project_QuanXuuu/)
 
-In the project directory, you can run:
+**Important:** This Demo is optimized for mobile screen.
 
-### `npm start`
+## Project Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Clone this repository
+- Install all dependencies with: `$ npm install`
+- Start the project in dev mode with: `$ npm start` and opens http://localhost:3000 to view

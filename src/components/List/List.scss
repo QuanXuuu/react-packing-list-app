@@ -1,0 +1,26 @@
+.list {
+  color: #13a30b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6rem;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    width: 80%;
+  }
+
+  .sort {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &-select,
+    &-button {
+      margin: 1.2rem;
+      font-size: 1.8rem;
+      padding: 1rem 1rem;
+    }
+  }
+}

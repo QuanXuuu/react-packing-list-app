@@ -1,0 +1,34 @@
+.form {
+  padding: 2.8rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Ysabeau Office", sans-serif;
+  font-size: 2.2rem;
+
+  h3 {
+    color: #fff;
+  }
+
+  .form-input {
+    button,
+    select,
+    input {
+      background-color: #fff;
+      color: #746c02;
+      font-family: inherit;
+      border: none;
+      border-radius: 1rem;
+      padding: 1rem 2.2rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin: 1rem 0.2rem;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #746c02;
+    }
+  }
+}

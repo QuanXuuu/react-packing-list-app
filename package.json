@@ -1,5 +1,6 @@
 {
-  "name": "travel-list",
+  "name": "on-the-way",
+  "homepage": "https://QuanXuuu.github.io/spa-final-project-QuanXuuu",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -14,13 +14,17 @@
   .sort {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     &-select,
     &-button {
+      color: #13a30b;
       margin: 1.2rem;
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       padding: 1rem 1rem;
+      border-radius: 10px;
+      background-color: #fff;
+      font-family: "Lugrasimo", cursive;
     }
   }
 }

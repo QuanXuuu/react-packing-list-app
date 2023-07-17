@@ -5,10 +5,12 @@
   align-items: center;
   justify-content: space-around;
   font-family: "Lugrasimo", cursive;
+  margin: 2rem 0;
 
   h3 {
     font-size: 2.2rem;
     color: #fff;
+    margin-bottom: 1rem;
   }
 
   .form-input {
@@ -19,19 +21,23 @@
     select,
     input {
       background-color: #fff;
-      color: #1c8727;
+      color: rgba(40, 75, 155, 255);
       font-family: inherit;
       border: none;
       border-radius: 1rem;
-      padding: 1rem 2.2rem;
       font-weight: 700;
       cursor: pointer;
+      padding: 1rem 2.2rem;
       margin: 1rem 0.2rem;
     }
 
     input:focus {
       outline: none;
-      border-color: #746c02;
+    }
+
+    button:hover {
+      background-color: rgba(107, 166, 237, 255);
+      color: #fff;
     }
   }
 }

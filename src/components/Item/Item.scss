@@ -1,18 +1,16 @@
 .item {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 2rem;
+  gap: 3rem;
   font-size: 2.5rem;
   font-family: "Lugrasimo", cursive;
-  font-weight: bolder;
-  color: #fff;
+  color: rgba(40, 75, 155, 255);
+  margin-top: 1rem;
 
   input[type="checkbox"] {
     height: 2rem;
     width: 2rem;
-    accent-color: #1c8727;
-    border-radius: 5px;
+    accent-color: rgba(40, 75, 155, 255);
   }
 
   button {

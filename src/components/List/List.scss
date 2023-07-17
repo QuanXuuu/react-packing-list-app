@@ -1,5 +1,5 @@
 .list {
-  color: #13a30b;
+  color: rgba(40, 75, 155, 255);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,23 +7,33 @@
 
   ul {
     list-style: none;
-    width: 65%;
+    width: 70%;
   }
 
   .sort {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin: 2rem 0;
 
     &-select,
     &-button {
-      color: #13a30b;
-      margin: 1.2rem;
+      background-color: #fff;
+      color: rgba(107, 166, 237, 255);
+      font-family: "Lugrasimo", cursive;
+      border: none;
+      border-radius: 1rem;
+      padding: 1rem 2rem;
       font-size: 1.5rem;
       padding: 1rem 1rem;
-      border-radius: 10px;
-      background-color: #fff;
-      font-family: "Lugrasimo", cursive;
+      margin: 1.2rem;
+    }
+
+    &-select:hover,
+    &-button:hover {
+      cursor: pointer;
+      background-color: rgba(0, 150, 199, 255);
+      color: #fff;
     }
   }
 }

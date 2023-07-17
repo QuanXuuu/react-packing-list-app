@@ -9,5 +9,12 @@
   color: #fff;
   background-image: url(https://images.unsplash.com/photo-1515238152791-8216bfdf89a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJlYWNofGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 500px) {
+  .app {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }

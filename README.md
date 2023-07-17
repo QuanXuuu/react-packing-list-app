@@ -1,6 +1,6 @@
 # 🏝 ON THE WAY 🏝
 
-## Your personal packling list
+## Your personal packing list
 
 Please feel free to explore[@ONTHEWAY](https://quanxuuu.github.io/spa-final-project_QuanXuuu/)
 

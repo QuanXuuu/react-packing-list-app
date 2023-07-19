@@ -14,8 +14,10 @@ export const Footer = ({ items }) => {
       <em>
         {percentage === 100
           ? "You got everyting! Ready to go ~"
-          : `You have ${numItems} item on your list, and you already packed
-          ${numPacked} item (${percentage}%)`}
+          : `You have ${numItems} ${
+              numItems > 1 ? "items" : "item"
+            }  on your list, and you already packed
+          ${numPacked} ${numPacked > 1 ? "items" : "item"} (${percentage}%)`}
       </em>
     </footer>
   );

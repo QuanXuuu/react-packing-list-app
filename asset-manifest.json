@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-packing-list-app/static/css/main.e2267eee.css",
+    "main.js": "/react-packing-list-app/static/js/main.2426ae74.js",
+    "index.html": "/react-packing-list-app/index.html",
+    "main.e2267eee.css.map": "/react-packing-list-app/static/css/main.e2267eee.css.map",
+    "main.2426ae74.js.map": "/react-packing-list-app/static/js/main.2426ae74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2267eee.css",
+    "static/js/main.2426ae74.js"
+  ]
+}
